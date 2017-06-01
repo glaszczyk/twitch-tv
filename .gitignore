@@ -1,0 +1,12 @@
+#node modules
+node_modules
+
+#dist
+/dist/scripts
+/dist/styles
+
+#source PSD and Affinity Images
+#layout
+
+# OSX files
+.DS_Store

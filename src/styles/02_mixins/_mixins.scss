@@ -1,0 +1,20 @@
+@mixin font($user-defined) {
+	$default-font-style: (
+		family: $font-family,
+		weight: 900,
+		style: normal,
+		size: 16px
+	);
+	
+	$param: map-merge($default-font-style, $user-defined);
+
+	font-family: map-get($param, family);
+	font-weight: map-get($param, weight);
+	font-style: map-get($param, style);
+	font-size: map-get($param, size);
+}
+
+@mixin icon-height($user-defined: 60px) {
+	height: $user-defined;
+	width: auto;
+}
