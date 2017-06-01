@@ -1,6 +1,6 @@
 # react-webpack-babel-kit
 
-Global mockup PSD2HTML using react, webpack, babel, es2015 & sass. Source files https://psdrepo.com/free-psd/global-portfolio-website-freebie/
+TwitchTV learning app using react, webpack, babel, es2015 & sass.
 
 Compiles all the scripts & styles from `src` path to `dist`. The kit generates source maps by default in development mode.
 
@@ -30,4 +30,4 @@ To use webpack dev server & watch,
     $ npm start
 ```
 
-Listens at **http://localhost:8080** # Global
+Listens at **http://localhost:8080** # Twitch
