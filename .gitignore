@@ -2,8 +2,7 @@
 node_modules
 
 #dist
-/dist/scripts
-/dist/styles
+dist
 
 #source PSD and Affinity Images
 #layout
