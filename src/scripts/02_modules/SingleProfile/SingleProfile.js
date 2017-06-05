@@ -17,6 +17,10 @@ class SingleProfile extends Component {
 					alt={'This is alt'}
 				/>
 				<ParagraphText>Profile status </ParagraphText>
+				<Image
+					source={'http://www.hexatar.com/gallery/thumb/160318_061405_m5e48ca2281_avatar.png'}
+					alt={'This is second image'}
+				/>
 			</div>
 		);
 	}

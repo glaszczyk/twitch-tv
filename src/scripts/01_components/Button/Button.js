@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Button = props => (
-	<button>
+	<button onClick={props.onClick}>
 		{props.content}
 	</button>
 );
