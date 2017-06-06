@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './Header.scss';
 import Button from '../../01_components/Button/Button';
 import Input from '../../01_components/Input/Input';
 
@@ -20,13 +21,13 @@ class Header extends Component {
 	}
 	render() {
 		return (
-			<div>
+			<header className="bar">
                 Twitch TV
 				<Button onClick={this.onClickAll} content={'All'} />
 				<Button onClick={this.onClickOnline} content={'Online'} />
 				<Button onClick={this.onClickOffline} content={'Offline'} />
 				<Input />
-			</div>
+			</header>
 		);
 	}
 }
