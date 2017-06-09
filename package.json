@@ -4,7 +4,9 @@
   "version": "1.0.0",
   "description": "Twitch TV app with React, Sass, ES2015",
   "main": "main.js",
-  "dependencies": {},
+  "dependencies": {
+    "whatwg-fetch": "^2.0.3"
+  },
   "devDependencies": {
     "babel-core": "^6.4.0",
     "babel-eslint": "^6.1.2",
