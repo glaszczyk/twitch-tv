@@ -5,22 +5,19 @@ import ParagraphText from '../../01_components/ParagraphText/ParagraphText';
 
 class SingleProfile extends Component {
 	render() {
+		const { video } = this.props;
 		return (
 			<div>
 				<Title
 					level={'2'}
 				>
-					First person profile
+					{ video.title }
 				</Title>
 				<Image
-					source={'http://www.hexatar.com/gallery/thumb/160318_061405_m5e48ca2281_avatar.png'}
-					alt={'This is alt'}
+					source={video.preview.medium}
+					alt={video.game}
 				/>
 				<ParagraphText>Profile status </ParagraphText>
-				<Image
-					source={'http://www.hexatar.com/gallery/thumb/160318_061405_m5e48ca2281_avatar.png'}
-					alt={'This is second image'}
-				/>
 			</div>
 		);
 	}

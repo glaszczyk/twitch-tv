@@ -5,7 +5,7 @@ class SearchResults extends Component {
 	render() {
 		return (
 			<div>
-				<ProfilesList />
+				<ProfilesList topVideoList={this.props.topVideoList} />
 			</div>
 		);
 	}

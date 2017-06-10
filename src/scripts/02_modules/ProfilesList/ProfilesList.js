@@ -3,10 +3,11 @@ import SingleProfile from '../SingleProfile/SingleProfile';
 
 class ProfilesList extends Component {
 	render() {
+		const { topVideoList } = this.props;
+		const videoList = topVideoList.map(video => (<SingleProfile video={video} />));
 		return (
 			<div>
-				Profiles List
-				<SingleProfile />
+				{videoList}
 			</div>
 		);
 	}
