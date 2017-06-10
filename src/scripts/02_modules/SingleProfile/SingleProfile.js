@@ -4,6 +4,9 @@ import Title from '../../01_components/Title/Title';
 import ParagraphText from '../../01_components/ParagraphText/ParagraphText';
 
 class SingleProfile extends Component {
+	constructor(props) {
+		super(props);
+	}
 	render() {
 		const { video } = this.props;
 		return (
@@ -17,7 +20,16 @@ class SingleProfile extends Component {
 					source={video.preview.medium}
 					alt={video.game}
 				/>
-				<ParagraphText>Profile status </ParagraphText>
+				<ParagraphText><a href={video.url}>{video.url}</a></ParagraphText>
+				<Title
+					level={'4'}
+				>
+					{video.channel.display_name}
+				</Title>
+				<Image
+					source={video.channel.logo}
+					alt={video.channel.name}
+				/>
 			</div>
 		);
 	}
