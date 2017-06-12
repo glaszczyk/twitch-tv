@@ -13,6 +13,7 @@ class SingleProfile extends Component {
 			<div>
 				<Title
 					level={'2'}
+					classNames={'title'}
 				>
 					{ video.title }
 				</Title>
@@ -21,7 +22,11 @@ class SingleProfile extends Component {
 					source={video.preview.medium}
 					alt={video.game}
 				/>
-				<ParagraphText><a href={video.url}>{video.url}</a></ParagraphText>
+				<ParagraphText
+					classNames={'paragraph'}
+				>
+					<a href={video.url}>{video.url}</a>
+				</ParagraphText>
 				<Title
 					level={'4'}
 				>

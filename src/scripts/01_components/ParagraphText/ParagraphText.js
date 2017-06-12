@@ -1,7 +1,8 @@
 import React from 'react';
+import './ParagraphText.scss';
 
 const ParagraphText = props => (
-	<p>
+	<p className={props.classNames} >
 		{props.children}
 	</p>
 );
