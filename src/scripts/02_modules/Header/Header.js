@@ -6,10 +6,12 @@ import Input from '../../01_components/Input/Input';
 class Header extends Component {
 	constructor(props) {
 		super(props);
+
 		this.onClickAll = this.onClickAll.bind(this);
 		this.onClickOnline = this.onClickOnline.bind(this);
 		this.onClickOffline = this.onClickOffline.bind(this);
 	}
+
 	onClickAll() {
 		console.log('All users');
 	}
