@@ -3,9 +3,10 @@ import './Title.scss';
 
 const Title = (props) => {
 	const TitleTag = `h${props.level}`;
+	const classNames = props.classNames || 'title';
 	return (
 		<TitleTag
-			className={props.classNames}
+			className={classNames}
 		>
 			{props.children}
 		</TitleTag>

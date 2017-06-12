@@ -7,7 +7,7 @@ class ProfilesList extends Component {
 	}
 	render() {
 		const { topVideoList } = this.props;
-		const videoList = topVideoList.map(video => (<SingleProfile key={video._id} video={video} />));
+		const videoList = topVideoList.map(video => (<SingleProfile key={video['_id']} video={video} />));
 		return (
 			<div>
 				{videoList}
