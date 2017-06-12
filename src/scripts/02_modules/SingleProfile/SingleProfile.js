@@ -17,6 +17,7 @@ class SingleProfile extends Component {
 					{ video.title }
 				</Title>
 				<Image
+					classNames={'thumbnail-image thumbnail-image--rectangle'}
 					source={video.preview.medium}
 					alt={video.game}
 				/>
@@ -27,6 +28,7 @@ class SingleProfile extends Component {
 					{video.channel.display_name}
 				</Title>
 				<Image
+					classNames={'profile-image profile-image--circle'}
 					source={video.channel.logo}
 					alt={video.channel.name}
 				/>
