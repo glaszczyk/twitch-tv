@@ -1,0 +1,28 @@
+@import '../../../styles/styles.scss';
+
+.video {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	background-color: #F9F8F2;
+	&__video-group {
+		display: flex;
+		align-items: center;
+	}
+	&__title-section {
+		display: flex;
+		flex-direction: column;
+		margin-left: $margin;
+	}
+	&__name {
+
+	}
+	&__user-group {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+	}
+	&__user {
+		margin-right: $margin;
+	}
+}

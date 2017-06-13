@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import ProfilesList from '../ProfilesList/ProfilesList';
+import VideosList from '../VideosList/VideosList';
 
 class SearchResults extends Component {
 	constructor(props) {
@@ -8,7 +8,7 @@ class SearchResults extends Component {
 	render() {
 		return (
 			<div>
-				<ProfilesList topVideoList={this.props.topVideoList} />
+				<VideosList topVideoList={this.props.topVideoList} />
 			</div>
 		);
 	}
