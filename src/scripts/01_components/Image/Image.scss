@@ -1,0 +1,16 @@
+@import '../../../styles/styles.scss';
+.thumbnail-image {
+	height: 96px;
+	width: auto;
+	&--rectangle {
+		border-radius: $radius;
+	}
+}
+
+.profile-image {
+	height: 96px;
+	width: 96px;
+	&--circle {
+		border-radius: 50%;
+	}
+}
